@@ -26,14 +26,14 @@ const Slider = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://images-eu.ssl-images-amazon.com/images/W/MEDIAX_792452-T1/images/G/31/img15/4th/sept/unrechero/8thslot/Tws_Tallhero_3000x1200._CB596103422_.jpg"
+            src="https://media01.stockfood.com/largepreviews/Mzg0OTY3Nzk2/12418316-Indian-sweets-on-a-black-background.jpg"
             alt="Second slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://images-eu.ssl-images-amazon.com/images/W/MEDIAX_792452-T1/images/G/31/IMG20/Home/2023/BAU2023/ATFGW/Winter_GW_PC_Unrec._CB570776754_.jpg"
+            src="/assets/desserts.2.png"
 
             alt="Third slide"
           />
