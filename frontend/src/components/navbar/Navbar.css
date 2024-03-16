@@ -13,6 +13,9 @@ body {
     color: aquamarine;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 3;
 }
 
 .left {
@@ -59,8 +62,15 @@ body {
 
 .logo {
     margin-left: 30px;
+    font-size: clamp(1rem, 6vw, 0.2rem);
 }
 
 .logo:hover {
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        display: none;
+    }
 }
