@@ -1,13 +1,10 @@
-/* ImgSlider.css */
 
-/* Reset some default styles */
 body, html {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
   }
-  
-  /* Set the styles for the carousel container */
+
   .carousel-container {
     position: relative;
     margin: 20px auto;
@@ -15,23 +12,19 @@ body, html {
     z-index: 1;
   }
   
-  /* Set the styles for the rectangle container overlay */
-  
-  
-  /* Set the styles for the carousel itself */
+
   .carousel {
     padding-top: 50px;
-    height: 65vh; /* Adjust the height as needed */
-    overflow: hidden; /* Hide overflow to prevent scrollbars */
+    height: 150vh; 
+    /* overflow: hidden;  */
   }
   
-  /* Styles for the carousel items */
+
   .carousel-item img {
     width: 100%;
-    height: 65vh; 
-    /* Adjust the height as needed for the rectangle appearance */
+    height: 100vh; 
     object-fit: cover;
-    object-position: top; /* Ensure the upper side is fully visible */
+    object-position: top; 
   }
   
   
@@ -49,16 +42,8 @@ body, html {
     transform: translateY(-50%);
   }
   
-  /* Optionally, you can add additional styles for the buttons, such as color and size */
   
   
-  
-  @media screen and (max-width: 300px) {
-    /* .carousel {
-      padding-top: 50px;
-      height: 25vh; 
-    } */
-  }
   
   
   @media screen and (max-width: 800px) {

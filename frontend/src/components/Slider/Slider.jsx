@@ -19,7 +19,7 @@ const Slider = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src='https://m.media-amazon.com/images/I/61zAjw4bqPL._SX3000_.jpg'
+            src='https://s1.1zoom.me/b5050/841/Strawberry_Black_background_Cream_Bowl_589568_1920x1080.jpg'
             alt="First slide"
           />
         </Carousel.Item>
